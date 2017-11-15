@@ -25,6 +25,10 @@ The project adds a `<plugin>` to configure `wildfly-swarm-plugin` to create the 
 
 ## Run
 
-* mvn package && java -jar ./target/example-jaxrs-war-swarm.jar
+* mvn package && java -jar ./target/wildfly-swarm-polyglot-swarm.jar
 * mvn wildfly-swarm:run
 * From your IDE, run class `org.wildfly.swarm.Swarm`
+
+## TODO
+
+- [ ] Docker Support
