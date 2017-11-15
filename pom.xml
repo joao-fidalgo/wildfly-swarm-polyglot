@@ -31,9 +31,6 @@
                 <groupId>org.wildfly.swarm</groupId>
                 <artifactId>wildfly-swarm-plugin</artifactId>
                 <version>${version.wildfly.swarm}</version>
-                <configuration>
-                    <mainClass>org.wildfly.swarm.teiid.examples.Main</mainClass>
-                </configuration>
                 <executions>
                     <execution>
                         <id>package</id>
